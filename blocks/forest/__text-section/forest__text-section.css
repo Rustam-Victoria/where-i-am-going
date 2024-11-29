@@ -1,0 +1,8 @@
+.forest__text-section {
+  margin: 0;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--grey);
+  
+}
