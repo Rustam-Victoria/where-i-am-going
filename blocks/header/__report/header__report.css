@@ -1,7 +1,6 @@
 .header__report {
-    color: inherit;
     text-decoration: none;
-    font-weight: bold;
+    color: inherit;
 }
 
 .header__report:hover {

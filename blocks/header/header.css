@@ -1,6 +1,29 @@
 .header {
+    font-size: 1.25rem;
+    font-weight: 600;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 50px 0;
+    column-gap: 1em;
+    padding: 2.5rem 4rem 0;
+}
+
+@media (width < 64rem) {
+    .header {
+        font-size: 1rem;
+    }
+}
+
+@media (width < 48rem) {
+    .header {
+        font-size: 0.875rem;
+        padding: 2rem 2.5rem 0;
+    }
+}
+
+@media (width < 30rem) {
+    .header {
+        font-size: 0.75rem;
+        padding: 1.5rem 1rem 0;
+    }
 }
