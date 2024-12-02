@@ -32,5 +32,6 @@
 @import url('./blocks/reviews/__comment/reviews__comment.css');
 
 @import url('./blocks/footer/footer.css');
+@import url('./blocks/footer/__copyright/footer__copyright.css');
 
 
