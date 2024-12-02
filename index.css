@@ -25,6 +25,11 @@
 @import url('./blocks/sea/sea.css');
 
 @import url('./blocks/reviews/reviews.css');
+@import url('./blocks/reviews/__title/reviews__title.css');
+@import url('./blocks/reviews/__cards/reviews__cards.css');
+@import url('./blocks/reviews/__card/reviews__card.css');
+@import url('./blocks/reviews/__name/reviews__name.css');
+@import url('./blocks/reviews/__comment/reviews__comment.css');
 
 @import url('./blocks/footer/footer.css');
 

@@ -1,0 +1,9 @@
+.reviews {
+  padding: 3em;
+}
+
+@media (width < 48rem) {
+  .reviews {
+    padding: 2em;
+  }
+}
