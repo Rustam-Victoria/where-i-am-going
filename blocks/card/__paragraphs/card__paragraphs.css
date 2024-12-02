@@ -1,0 +1,9 @@
+.card__paragraphs {
+  font-size: 1rem;
+}
+
+@media (width < 48rem) {
+  .card__paragraphs {
+    font-size: 0.875rem;
+  }
+}

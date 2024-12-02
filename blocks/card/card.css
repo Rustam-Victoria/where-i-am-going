@@ -1,0 +1,11 @@
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+@media (width < 48rem) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+}
