@@ -8,4 +8,8 @@
   .card {
     grid-template-columns: 1fr;
   }
+
+  .card:not(.sea .card) {
+    border-bottom: 2rem solid var(--orange);
+  }
 }
