@@ -1,0 +1,9 @@
+.card__img {
+  object-fit: cover;
+}
+
+@media (width < 48rem) {
+  .card__img {
+    width: 100%;
+  }
+}

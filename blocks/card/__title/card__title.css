@@ -1,0 +1,9 @@
+.card__title {
+  font-size: 2.25rem;
+}
+
+@media (width < 48rem) {
+  .card__title {
+    font-size: 2rem;
+  }
+}
