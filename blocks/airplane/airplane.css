@@ -16,8 +16,8 @@
 
 @media (width < 30rem) {
   .airplane {
+    align-items: start;
     padding: 1.5rem 1rem;
     flex-direction: column;
-    align-items: start;
   }
 }
