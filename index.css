@@ -4,8 +4,12 @@
 
 @import url('./blocks/header/header.css');
 
+<<<<<<< HEAD
 @import url('./blocks/airplane/__title/airplane__tittle.css');
 @import url('./blocks/airplane/__image/airplane__image.css');
+=======
+@import url('./blocks/airplane/airplane.css');
+>>>>>>> header
 
 @import url('./blocks/forest/forest.css');
 
