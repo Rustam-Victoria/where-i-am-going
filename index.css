@@ -8,14 +8,10 @@
 @import url('./blocks/header/__menu/-link/header__menu-link.css');
 @import url('./blocks/header/__report/header__report.css');
 
-@import url('./blocks/plane/plane.css');
+@import url('./blocks/airplane/airplane.css');
 
 @import url('./blocks/forest/forest.css');
-@import url('./blocks/forest/__header/__header.css');
-@import url('./blocks/forest/__paragraph/forest__paragraph.css');
-@import url('./blocks/forest/__paragraphs/forest__paragraphs.css');
-@import url('./blocks/forest/__pic-section/forest__pic-section.css');
-@import url('./blocks/forest/__text-section/forest__text-section.css');
+
 
 @import url('./blocks/mountains/mountains.css');
 
