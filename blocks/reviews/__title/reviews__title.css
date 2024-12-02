@@ -1,0 +1,35 @@
+.reviews__title {
+  font-size: 2.3rem;
+  margin-block: 3em;
+  max-width: 50%;
+  position: relative;
+}
+
+.reviews__title::before {
+  content: "люди";
+  color: var(--orange);
+  text-transform: uppercase;
+  font-size: 0.5em;
+  position: absolute;
+  top: -2em;
+}
+
+@media (width < 64rem) {
+  .reviews__title {
+    margin-block: 1.5em;
+  }
+}
+
+@media (width < 48rem) {
+  .reviews__title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (width < 30rem) {
+  .reviews__title {
+    max-width: 100%;
+    margin-block: 1em;
+    font-size: 2rem;
+  }
+}
