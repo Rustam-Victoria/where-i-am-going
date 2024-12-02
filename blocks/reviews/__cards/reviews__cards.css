@@ -1,0 +1,19 @@
+.reviews__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+}
+
+@media (width < 64rem) {
+  .reviews__cards {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+  }
+}
+
+@media (width < 48rem) {
+  .reviews__cards {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+}
